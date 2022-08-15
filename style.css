@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 48px, 48px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.box1 {
+    display:flex;
+    background-color: #1F2937;
+}
+
+.box2 {
+    display:flex;
+}
+
+.box3 {
+    display:flex;
+}
+
+.box4 {
+    display:flex;
+}
+
+.footer {
+    display:flex;
+}
