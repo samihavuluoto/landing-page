@@ -1,24 +1,31 @@
 img {
-    height: 0;
-    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .container {
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    width: 100vh;
+    min-width: 100vh;
+}
+
+.header, .box1 {
+    padding: 0px 400px;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
+    align-items: center;
 }
 
 .headerlogo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+    flex: 1;
 }
 
 ul {
@@ -32,32 +39,61 @@ li {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+a {
+    text-decoration: none;
+}
+
 .box1 {
     display:flex;
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    gap: 50px;
+}
+
+.infobox, .placeholder {
+    height: 300px;
+    width: 800px;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .infotext {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    align-items: stretch;
+    flex: 0 1 auto;
+    margin: 0;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
+    flex: 0 1 auto;
 }
 
-.infobox {
-    display: flex;
-    flex-direction: column;
+.button1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 35px;
+    font-size: 18px;
+    flex: 0 1 auto;
 }
 
 .placeholder {
-    flex: 1;
-    min-width: 0;
+    flex: 1 1 0;
 }
 
 .box2 {
