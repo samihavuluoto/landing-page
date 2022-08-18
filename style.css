@@ -112,6 +112,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px 0px
 }
 
 .cardsection {
@@ -127,13 +128,12 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .imgdiv {
+    display: flex;
     flex: 1;
-}
-
-.imgdiv img {
     border: 5px solid #3882F6;
     border-radius: 8px;
 }
@@ -148,10 +148,54 @@ a {
 
 .box3 {
     display:flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 150px 550px;
+    gap: 20px;
+}
+
+.box3 div p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+#thor {
+    align-self: flex-end;
+}
+
+#thor p {
+    font-size: 24px;
+    font-style: normal;
+    color: #1F2937;
+    font-weight: bolder;
 }
 
 .box4 {
     display:flex;
+    padding: 100px 300px;
+}
+
+.bluebox {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6;
+    padding: 50px 100px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.bluetext {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .footer {
