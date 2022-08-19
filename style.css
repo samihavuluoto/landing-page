@@ -61,6 +61,7 @@ a {
 .infobox, .placeholder {
     height: 300px;
     width: 800px;
+    gap: 20px;
 }
 
 .infobox {
@@ -86,12 +87,12 @@ a {
     flex: 0 1 auto;
 }
 
-.button1 {
+button {
     background-color: #3882F6;
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
-    padding: 10px 35px;
+    padding: 8px 40px;
     font-size: 18px;
     flex: 0 1 auto;
 }
@@ -184,7 +185,7 @@ a {
     display: flex;
     flex: 1;
     background-color: #3882F6;
-    padding: 50px 100px;
+    padding: 60px 140px;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -196,6 +197,21 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    font-size: 25px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    gap: 5px;
+}
+
+#subtext {
+    font-weight: lighter;
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.bluebutton {
+    border: solid #F9FAF8;
+    border-radius: 8px;
 }
 
 .footer {
